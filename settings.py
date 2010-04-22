@@ -71,7 +71,7 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = '%(PROJECT_NAME)s.urls' % {'PROJECT_NAME': PROJECT_NAME }
 
 TEMPLATE_DIRS = (
-    CURRENT_PATH = "/templates/"
+    CURRENT_PATH + "/templates/"
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = ("django.core.context_processors.auth",
