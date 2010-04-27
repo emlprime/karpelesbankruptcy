@@ -1,0 +1,45 @@
+[
+    {
+        "pk": 1, 
+        "model": "content.hometext", 
+        "fields": {
+            "date": "2010-04-27", 
+            "header": "This is your header", 
+            "header_2": "This is a second header", 
+            "below_fold": "This is additional information.", 
+            "above_fold": "This is your most important information."
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "content.aboutbankruptcytext", 
+        "fields": {
+            "date": "2010-04-27", 
+            "text": "This is your text for the about bankruptcy page."
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "content.loanmodificationstext", 
+        "fields": {
+            "date": "2010-04-27", 
+            "text": "This is the text for the loan modifications page."
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "content.abouttext", 
+        "fields": {
+            "date": "2010-04-27", 
+            "text": "This is text about the firm and why your potential clients should choose you."
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "content.relieffromstaytext", 
+        "fields": {
+            "date": "2010-04-27", 
+            "text": "this is the text for the relief from stay page."
+        }
+    }
+]
