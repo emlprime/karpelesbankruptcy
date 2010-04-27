@@ -6,7 +6,7 @@ admin.autodiscover()
 from karpelesbankruptcy.settings import MEDIA_ROOT
 
 urlpatterns = patterns('',
-    (r'^admin/', include(admin.site.urls)),
+    (r'^admin/', include(admin.site.root)),
     (r'^site_media/(.*)$', 'django.views.static.serve', {'document_root': MEDIA_ROOT}),
 )
 
