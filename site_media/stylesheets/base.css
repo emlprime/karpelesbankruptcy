@@ -67,7 +67,7 @@ a:hover
 #header p, #header h1, #header h2
 {
   position: absolute;
-  right: -10000px;
+  left: -10000px;
 }
 
 #footer p
