@@ -88,13 +88,6 @@ a:hover
   margin-top: 1em;
 }
 
-#header p
-{
-  margin: 1.5em;
-  text-align: right;
-  margin-right: 0px;
-}
-
 #page
 {
   text-align: center;
@@ -126,6 +119,20 @@ a:hover
 {
   margin-top: 1em;
   color: black;
+}
+
+#content p
+{
+  text-align: left;
+  margin: 0.5em;
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
+#content h1
+{
+  font-size: 18px;
+  line-height: 26px;
 }
 
 body

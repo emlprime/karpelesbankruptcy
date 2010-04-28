@@ -3,10 +3,10 @@
 {% block content %}
 
 <h1>{{ homeText.header }}</h1>
-<div class="grid_12">{{ homeText.above_fold|escape|linebreaks }}</div>
-
 <h3>{{ homeText.header_2 }}</h3>
 
-<div class="grid_12">{{ homeText.below_fold|escape|linebreaks }}</div>
+<div class="grid_12" id="above_fold" >{{ homeText.above_fold|escape|linebreaks }}</div>
+
+<div id="below_fold" class="grid_12">{{ homeText.below_fold|escape|linebreaks }}</div>
 
 {% endblock %}
