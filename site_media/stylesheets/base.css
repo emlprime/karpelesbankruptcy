@@ -129,6 +129,11 @@ a:hover
   margin-left: 2em;
 }
 
+#content a
+{
+  color: black;
+}
+
 #content h1
 {
   font-size: 20px;
@@ -199,4 +204,12 @@ body
 #footer
 {
   color: #cccccc;
+}
+
+ul
+{
+  list-style-type:circle;
+  text-align: left;
+  margin-left: 7em;
+  margin-top: 1em;
 }

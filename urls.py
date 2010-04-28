@@ -25,3 +25,6 @@ urlpatterns += patterns('karpelesbankruptcy.content.views',
     (r'^disclaimer/$', 'disclaimer'),
 )
 
+urlpatterns += patterns('django.views.generic.simple',
+    (r'^site_map/$', 'direct_to_template', {'template':'site_map.html'}),
+)
