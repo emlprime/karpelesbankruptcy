@@ -33,13 +33,5 @@
             "date": "2010-04-27", 
             "text": "This is text about the firm and why your potential clients should choose you."
         }
-    }, 
-    {
-        "pk": 1, 
-        "model": "content.relieffromstaytext", 
-        "fields": {
-            "date": "2010-04-27", 
-            "text": "this is the text for the relief from stay page."
-        }
-    }
+    } 
 ]

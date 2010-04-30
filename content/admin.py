@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from karpelesbankruptcy.content.models import HomeText, AboutBankruptcyText, LoanModificationsText, AboutText, ResourcesText, ContactText, Chapter13Text, Chapter11Text, Chapter7Text, ReliefFromStayText, DisclaimerText
+from karpelesbankruptcy.content.models import HomeText, AboutBankruptcyText, LoanModificationsText, AboutText, CreditorsRightsText, ContactText, Chapter13Text, Chapter11Text, Chapter7Text, DisclaimerText
 
 class HomeTextAdmin(admin.ModelAdmin):
     pass
@@ -14,9 +14,9 @@ class LoanModificationsTextAdmin(admin.ModelAdmin):
     pass
 admin.site.register(LoanModificationsText, LoanModificationsTextAdmin)
 
-class ReliefFromStayTextAdmin(admin.ModelAdmin):
+class CredtorsRightsTextAdmin(admin.ModelAdmin):
     pass
-admin.site.register(ReliefFromStayText, ReliefFromStayTextAdmin)
+admin.site.register(CreditorsRightsText, CreditorsRightsTextAdmin)
 
 class AboutBankruptcyTextAdmin(admin.ModelAdmin):
     pass
@@ -41,7 +41,3 @@ admin.site.register(Chapter13Text, Chapter13TextAdmin)
 class DisclaimerTextAdmin(admin.ModelAdmin):
     pass
 admin.site.register(DisclaimerText, DisclaimerTextAdmin)
-
-class ResourcesTextAdmin(admin.ModelAdmin):
-    pass
-admin.site.register(ResourcesText, ResourcesTextAdmin)

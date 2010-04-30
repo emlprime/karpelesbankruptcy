@@ -91,7 +91,7 @@ a:hover
 #page
 {
   text-align: center;
-  background-color: white;
+  background-color: #fafafa;
   min-height: 400px;
   width: 960px;
   margin-top: 2.5em;
@@ -100,19 +100,14 @@ a:hover
 #nav_2
 {
   color: #cccccc;
-  padding-top: 1.5em;
+  padding-top: 2em;
   padding-bottom: 1em;
-  margin-top: 1em;
   font-size: 15px;
   line-height: 20px;
-  background-image: url('/site_media/images/nav_2.jpg');
-  background-repeat: no-repeat;
-  height: 150px;
-}
-
-#nav_2 p
-{
-  width: 200px;
+  background-color: #660000;
+  border: 1px solid black;
+  height: 110px;
+  margin-left: 0.5em;
 }
 
 #content
@@ -148,7 +143,7 @@ a:hover
 
 body
 {
-    font-family: helvetica, arial;
+    font-family: Georgia,times;
     font-size: 13px;
     background-color: black;
     background-image: url("/site_media/images/background.jpg");
@@ -180,7 +175,7 @@ body
 {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
-  font-size: 30px;
+  font-size: 28px;
 }
 
 #contact_bar h3
