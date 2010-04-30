@@ -14,7 +14,7 @@ class LoanModificationsTextAdmin(admin.ModelAdmin):
     pass
 admin.site.register(LoanModificationsText, LoanModificationsTextAdmin)
 
-class CredtorsRightsTextAdmin(admin.ModelAdmin):
+class CreditorsRightsTextAdmin(admin.ModelAdmin):
     pass
 admin.site.register(CreditorsRightsText, CreditorsRightsTextAdmin)
 
