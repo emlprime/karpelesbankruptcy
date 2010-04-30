@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-  <title>{% block title %}Karpeles &amp; Assocates: Regain Control of Your Finances{% endblock %}</title>
+  <title>{% block title %}Karpeles &amp; Assocaites: Regain Control of Your Finances{% endblock %}</title>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   {% block css %}
   <link rel="stylesheet" type="text/css" href="/site_media/stylesheets/960.css" />
@@ -35,37 +35,32 @@
 <a href="/about_bankruptcy/"><img src="/site_media/images/about_bankruptcy.jpg" id="bankruptcy_link" alt="about bankruptcy" /></a>
 <a href="/loan_modifications/"><img src="/site_media/images/loan_modifications.jpg" id="loan_link" alt="loan modifications" /></a>
 <a href="/about/"><img src="/site_media/images/about.jpg" alt="about" id="about_link" /></a>
-<a href="/resources/"><img src="/site_media/images/resources.jpg" alt="resources" id="resources_link" /></a>
+<a href="/creditors_rights/"><img src="/site_media/images/creditors_rights.jpg" alt="creditor's rights" id="resources_link" /></a>
 <a href="/contact/"><img src="/site_media/images/contact.jpg" alt="contact" id="contact_link" /></a>
     </div>
 
 
     <div id="page" class="grid_16 alpha">
 
-      <div class="grid_4 alpha" id="sidebar">
-
 	<div id="nav_2" class="grid_4 alpha">
 	  <p>More Information On:</p>
 	  <p><a href="/chapter_7/">Chapter 7</a></p>
 	  <p><a href="/chapter_11/">Chapter 11</a></p>
 	  <p><a href="/chapter_13/">Chapter 13</a></p>
-	  <p><a href="/relief_from_stay/">Relief From Stay</a></p>
 	</div>
 
-	<div id="contact_bar" class="grid_4 alpha">
+      <div class="grid_8" id="content">
+	{% block content %}
+	This is the base content
+	{% endblock %}
+      </div>
+
+	<div id="contact_bar" class="grid_4 omega">
 	  <h3>Call Now</h3>
 	  <h1>(323)782-1344</h1>
 	  <p><a href="mailto:ejkarpeles@sbcglobal.net">ejkarpeles@sbcglobal.net</a></p>
 	  <h3>Free Consultation</h3>
 	</div>
-
-      </div>
-
-      <div class="grid_12 omega" id="content">
-	{% block content %}
-	This is the base content
-	{% endblock %}
-      </div>
 
     </div>
 

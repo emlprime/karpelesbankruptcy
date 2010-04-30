@@ -58,8 +58,8 @@ class AboutText(models.Model):
     def __unicode__(self):
         return str(self.date)
 
-class ResourcesText(models.Model):
-    """ Model for the about text on Resources page
+class CreditorsRightsText(models.Model):
+    """ Model for the about text on Creditor's Rights page
     """
     text = models.TextField()
     date = models.DateField()
@@ -112,19 +112,6 @@ class Chapter11Text(models.Model):
 
 class Chapter13Text(models.Model):
     """ Model for the about text on Chapter 13 page
-    """
-    text = models.TextField()
-    date = models.DateField()
-
-    class Meta:
-        ordering = ['-date']
-        get_latest_by = "date"
-
-    def __unicode__(self):
-        return str(self.date)
-
-class ReliefFromStayText(models.Model):
-    """ Model for the about text on Relief From Stay page
     """
     text = models.TextField()
     date = models.DateField()

@@ -16,12 +16,11 @@ urlpatterns += patterns('karpelesbankruptcy.content.views',
     (r'^about_bankruptcy/$', 'about_bankruptcy'),
     (r'^loan_modifications/$', 'loan_modifications'),
     (r'^about/$', 'about'),
-    (r'^resources/$', 'resources'),
+    (r'^creditors_rights/$', 'creditors_rights'),
     (r'^contact/$', 'contact'),
     (r'^chapter_7/$', 'chapter_7'),
     (r'^chapter_11/$', 'chapter_11'),
     (r'^chapter_13/$', 'chapter_13'),
-    (r'^relief_from_stay/$', 'relief_from_stay'),
     (r'^disclaimer/$', 'disclaimer'),
 )
 

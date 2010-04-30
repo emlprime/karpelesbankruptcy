@@ -79,14 +79,6 @@
     }, 
     {
         "pk": 1, 
-        "model": "content.relieffromstaytext", 
-        "fields": {
-            "date": "2010-04-27", 
-            "text": "Creditor's Rights in Bankruptcy\r\n\r\nIn addition to their practice representing debtors in bankruptcy, the attorneys at Karpeles & Associates also have considerable experience representing creditors in bankruptcy proceedings.  This kind of representation takes several forms depending on the needs of the creditor.  \r\n\r\nFor instance, the firm helps lenders and other holders of security interests in bringing motions for relief from stay, thereby allowing secured creditors to foreclose and repossess property from the bankruptcy estate and the debtor.  The firm also has experience bringing motions to except certain kinds of debt from discharge, such as debt obtained through fraud, abuse, or other improper means.  In addition, because of their extensive background in construction and real estate law, Karpeles & Associates can help holders of mechanic's liens in retaining and foreclosing on a lien despite a bankruptcy filing by one or more of the property's owners, where possible.\r\n\r\nCreditors who have received payments from a debtor who soon thereafter filed bankruptcy should also be aware of the possibility of a preference payment suit brought by the bankruptcy trustee.  In this type of suit, the bankruptcy trustee for a debtor seeks to recoup payments made to certain creditors at the expense of the other creditors of the estate.  The firm has extensive experience defending these types of suits, and can help innocent creditors retain the money owed to them.   "
-        }
-    }, 
-    {
-        "pk": 1, 
         "model": "content.disclaimertext", 
         "fields": {
             "date": "2010-04-27", 
