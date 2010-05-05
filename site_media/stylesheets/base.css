@@ -185,6 +185,24 @@ body
   margin-bottom: 0.5em;
 }
 
+#save_house, #save_car
+{
+  border: 1px solid #333333;
+  margin-top: 1em;
+  font-size: 14px;
+}
+
+#save_house
+{
+  margin-left: 0.5em;
+}
+
+
+#save_house img, #save_car img
+{
+  width: 200px;
+}
+
 #disclaimer h1
 {
   font-size:16px;
