@@ -26,5 +26,5 @@ urlpatterns += patterns('karpelesbankruptcy.content.views',
 
 urlpatterns += patterns('django.views.generic.simple',
     (r'^site_map/$', 'direct_to_template', {'template':'site_map.html'}),
-    (r'^loan_modifications/$', 'redirect_to', {'url': 'http://www.loanmods.karpelesbankruptcy.com'}),
+    (r'^loan_modifications/$', 'redirect_to', {'url': 'http://loanmods.karpelesbankruptcy.com'}),
 )
