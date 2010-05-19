@@ -10,9 +10,9 @@ class AboutTextAdmin(admin.ModelAdmin):
     pass
 admin.site.register(AboutText, AboutTextAdmin)
 
-class LoanModificationsTextAdmin(admin.ModelAdmin):
-    pass
-admin.site.register(LoanModificationsText, LoanModificationsTextAdmin)
+#class LoanModificationsTextAdmin(admin.ModelAdmin):
+#    pass
+#admin.site.register(LoanModificationsText, LoanModificationsTextAdmin)
 
 class CreditorsRightsTextAdmin(admin.ModelAdmin):
     pass
